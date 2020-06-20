@@ -15,11 +15,12 @@ const Header = () => {
   `)
   return (
     <Heading>
-      <Image
+      {/* <Image
         width="400px"
         height="400px"
-        src={require("../images/programming.svg")}
-      />
+        
+        src={require("../images/My_Profile.jpeg")}
+      /> */}
       <div
         style={{
           display: `flex`,
@@ -29,8 +30,8 @@ const Header = () => {
           lineHeight: `.10rem`,
         }}
       >
-        <SideText>Hi there, I'm {data.site.siteMetadata.author}</SideText>
-        <Skill>I'm a Front-End Developer</Skill>
+        <SideText>Hey, I'm {data.site.siteMetadata.author}</SideText>
+        <Skill>A Front-End Developer</Skill>
       </div>
     </Heading>
   )
