@@ -28,16 +28,26 @@ const StyledPhoto = styled.img`
   object-fit: cover;
   border: 1px solid #fff;
 `
+const DemoLink = styled.a`
+
+  color: #2d2d2d;
+  font-weight: 300;
+  @media (max-width: 500px) {
+    font-size: 0.75rem;
+  }
+  `
 
 const Card = ({
   title,
   description,
-  photo
+  photo,
+  demoLink
 }) => (
   <StyledContainer>
-    <StyledPhoto src={photo} />
+    {/* <StyledPhoto src={photo} /> */}
     <Title>{title}</Title>
     <Description>{description}</Description>
+    <DemoLink href={demoLink}>{demoLink}</DemoLink>
   </StyledContainer>
 )
 export default Card
