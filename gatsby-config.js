@@ -15,7 +15,8 @@ module.exports = {
     social: {
       twitter: `mayurlalwani3`,
       github: `mayurlalwani`,
-      linkedin: `mayurlalwani`
+      linkedin: `mayurlalwani`,
+      instagram: `mayur_lalwani`
     },
   },
   plugins: [
