@@ -11,6 +11,7 @@ const Footer = () => {
             twitter
             github
             linkedin
+            instagram
           }
         }
       }
@@ -20,11 +21,11 @@ const Footer = () => {
   return (
     <FootContainer>
       <Content>
-        <div>
+        {/* <div>
           © {new Date().getFullYear()}, Built with
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </div>
+        </div> */}
         <div>
           <MediaLink
             href={`https://github.com/${social.github}`}
@@ -43,6 +44,12 @@ const Footer = () => {
             target="_blank"
           >
             Twitter
+          </MediaLink>
+          <MediaLink
+            href={`https://instagram.com/${social.instagram}`}
+            target="_blank"
+          >
+            Instagram
           </MediaLink>
         </div>
       </Content>
