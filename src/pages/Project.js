@@ -24,18 +24,26 @@ const StyledContainer = styled.div`
 const Project = () => {
   return (
     <StyledRoot>
-      <TitleComponent>Project</TitleComponent>
+      <TitleComponent>Projects</TitleComponent>
       <StyledText>Some of my work</StyledText>
       <StyledContainer>
         <Card
-          photo={require("../images/programming.svg")}
+          // photo={require("../images/programming.svg")}
           title="Number Guessing Game"
           description="Number guessing game using React."
+          demoLink="https://numberguessingapp.netlify.app/"
         />
         <Card
-          photo={require("../images/thinking.png")}
+          // photo={require("../images/thinking.png")}
           title="Speed Typing Test"
           description="Test your typing speed with this cool React web application."
+          demoLink="https://typingspeedtest.netlify.app/"
+        />
+        <Card
+          // photo={require("../images/thinking.png")}
+          title="To-Do CRUD App"
+          description="To-DO Application developed with React Hooks and Styled Components."
+          demoLink="https://todocrudreact.netlify.app/"
         />
       </StyledContainer>
     </StyledRoot>
