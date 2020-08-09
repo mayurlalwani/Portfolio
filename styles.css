@@ -1,5 +1,5 @@
 :root{
-    --mainColor: red;
+    --mainColor: #ccc;
     --secondaryColor: #fff;
     --mainText:black;
     --borderColor: #c1c1c1;
@@ -54,13 +54,13 @@ ul {
     display: grid;
     text-align: center;
     align-content: center;
-    border: 2px dashed lightcoral;
     min-height: 10em;
 }
 
 .intro-wrapper{
     background-color: var(--secondaryColor);
     border: 1px solid var(--borderColor);
+    border-radius: 5px 5px 0 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 3em 30em;
@@ -71,17 +71,57 @@ ul {
 
 .nav-wrapper{
     grid-area: nav-wrapper;
-    border: 1px dashed lightcoral;
+    border-radius: 5px 5px 0 0;
+
+    border-bottom: 1px solid var(--borderColor);
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: var(--mainColor);
+}
+
+#navigation{
+    margin:0;
+    padding:10px;
+}
+
+#navigation li{
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.dots-wrapper{
+    display: flex;
+    padding: 10px;
+}
+
+#dot-1{
+    background-color: #FC6058;
+}
+
+#dot-2{
+    background-color: #FEC02F;
+}
+
+#dot-3{
+    background-color: #2A3ACE;
+}
+
+.browser-dot{
+    background-color: black;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin:5px;
 }
 
 .left-column{
     grid-area: left-column;
-    border: 1px dashed lightcoral;
 }
 
 .right-column{
     grid-area: right-column;
-    border: 1px dashed lightcoral;
 }
 
 @media screen and(max-width: 1200px){
@@ -90,4 +130,4 @@ ul {
     }
 }
 
-/* Navigation Bar */
+/* Intro Section` */
