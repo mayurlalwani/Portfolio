@@ -4,6 +4,9 @@
     --mainText:black;
     --borderColor: #c1c1c1;
     --secondaryText: #4b5156;
+    --themeDotBorder: #24292e;
+    --preveiwBg: rgb(251, 249, 243, 0.8);
+    --previewShadow: #f0ead6;
 }
 
 html, body{
@@ -18,7 +21,7 @@ h1, h2, h3, h4, h5, h6, strong{
 }
 
 p, li, span, label, input, textarea{
-    color: var(--secondaryColor);
+    /* color: var(--secondaryColor); */
     font-family: 'EB Garamond', serif;
 }
 
@@ -63,7 +66,6 @@ ul {
     border-radius: 5px 5px 0 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 3em 30em;
     grid-template-areas: 
         'nav-wrapper nav-wrapper'
         'left-column right-column';
@@ -118,16 +120,114 @@ ul {
 
 .left-column{
     grid-area: left-column;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+#profile_pic{
+    display: block;
+    margin:0 auto;
+    height:200px;
+    width:200px;
+    object-fit: cover;
+    border: 2px solid var(--borderColor)
+}
+
+#theme-options-wrapper{
+    display:flex;
+    justify-content: center;
+}
+
+.theme-dot:hover{
+    border-width: 5px;
+}
+
+#light-mode{
+    background-color: #fff;
+}
+
+
+
+.theme-dot{
+    height: 30px;
+    width:30px;
+    border-radius: 50%;
+    background-color: black;
+    cursor: pointer;
+    border: 2px solid var(--themeDotBorder);
+
 }
 
 .right-column{
     grid-area: right-column;
+    display: grid;
+    align-content: center;
 }
 
-@media screen and(max-width: 1200px){
+#preview-shadow{
+    background-color: var(--previewShadow);
+    width:300px;
+    height:180px;
+    padding-left:30px;
+    padding-top:30px;
+}
+
+#preview{
+    width:300px;
+    border:1.5px solid #17a2b8;
+    background-color: var(--previewBg);
+    padding: 15px;
+}
+
+.corner{
+    width: 7px;
+    height:7px;
+    border-radius: 50%;
+    border:1.5px solid #17a2b8;
+    background-color: #fff;
+    position: relative;
+}
+
+#corner-tl{
+    top: -5px;
+    left: -5px;
+}
+
+#corner-tr{
+    top: -5px;
+    right: -5px;
+}
+
+#corner-br{
+    bottom: -5px;
+    right: -5px;
+}
+
+#corner-bl{
+    bottom: -5px;
+    left: -5px;
+}
+
+
+@media screen and (max-width: 1200px){
     .main-container{
         width: 95%;
     }
 }
 
-/* Intro Section` */
+@media screen and (max-width:800px){
+    .intro-wrapper{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            'nav-wrapper'
+            'left-column'
+            'right-column'
+    }
+
+    .right-column{
+        justify-content: center;
+    }
+
+}
+
+/* About Section */
