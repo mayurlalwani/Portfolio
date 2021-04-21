@@ -65,6 +65,15 @@ export const projectsData = [
     url: 'https://githubfinduser.netlify.app/',
     repo: 'https://github.com/mayurlalwani/github-finder', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'project.jpg',
+    title: 'FEM - Four Card Feature Section',
+    info: 'A simple web template created with HTML and CSS to improve skills.',
+    info2: '',
+    url: 'https://serene-swartz-201b84.netlify.app/',
+    repo: 'https://github.com/mayurlalwani/FEM-Four-card-feature-section', // if no repo, the button will not show up
+  },
 ];
 
 // CONTACT DATA
