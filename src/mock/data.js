@@ -20,22 +20,13 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne: 'I am a passionate web developer, currently living and working in Gujarat.',
-  paragraphTwo: 'My skills includes JavaScript, ReactJs, Nodejs, Express and MySql.',
+  paragraphTwo: 'My skills includes HTML, CSS, JavaScript, React, Nodejs, Express and MySql.',
   paragraphThree: '',
   resume: 'https://drive.google.com/file/d/1cfUIpEJFtPgymC9LJBDimb72kOyY5ebV/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: 'Number Guessing Game',
-    info: 'A fun number guessing game built with React',
-    info2: '',
-    url: 'https://numberguessingapp.netlify.app/',
-    repo: 'https://github.com/mayurlalwani/react-number-guessing-game', // if no repo, the button will not show up
-  },
   {
     id: nanoid(),
     img: 'project.jpg',
