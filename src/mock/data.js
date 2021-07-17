@@ -71,7 +71,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'lalwanimayur06@gmail.com',
 };
 
 // FOOTER DATA
@@ -82,11 +82,7 @@ export const footerData = {
       name: 'twitter',
       url: 'https://twitter.com/mayurlalwani3',
     },
-    // {
-    //   id: nanoid(),
-    //   name: 'codepen',
-    //   url: '',
-    // },
+
     {
       id: nanoid(),
       name: 'linkedin',
