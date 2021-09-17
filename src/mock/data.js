@@ -30,6 +30,15 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
+    title: 'Note Zipper',
+    info: 'A MERN stack application where users can collaborate notes with others.',
+    info2: '',
+    url: 'https://notes-collab-app.herokuapp.com/',
+    repo: 'https://github.com/mayurlalwani/notes-app-mern', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'project.jpg',
     title: 'Typing Speed Test',
     info: 'A web application built with React to test your typing speed.',
     info2: '',
@@ -56,15 +65,15 @@ export const projectsData = [
     url: 'https://githubfinduser.netlify.app/',
     repo: 'https://github.com/mayurlalwani/github-finder', // if no repo, the button will not show up
   },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: 'FEM - Four Card Feature Section',
-    info: 'A simple web template created with HTML and CSS to improve skills.',
-    info2: '',
-    url: 'https://serene-swartz-201b84.netlify.app/',
-    repo: 'https://github.com/mayurlalwani/FEM-Four-card-feature-section', // if no repo, the button will not show up
-  },
+  // {
+  //   id: nanoid(),
+  //   img: 'project.jpg',
+  //   title: 'FEM - Four Card Feature Section',
+  //   info: 'A simple web template created with HTML and CSS to improve skills.',
+  //   info2: '',
+  //   url: 'https://serene-swartz-201b84.netlify.app/',
+  //   repo: 'https://github.com/mayurlalwani/FEM-Four-card-feature-section', // if no repo, the button will not show up
+  // },
 ];
 
 // CONTACT DATA
