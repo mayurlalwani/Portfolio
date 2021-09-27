@@ -36,6 +36,16 @@ export const projectsData = [
     url: 'https://notes-collab-app.herokuapp.com/',
     repo: 'https://github.com/mayurlalwani/notes-app-mern', // if no repo, the button will not show up
   },
+
+  {
+    id: nanoid(),
+    img: 'project.jpg',
+    title: 'Resume Builder',
+    info: 'A web application to build resume with features like Download and Drag & Drop.',
+    info2: '',
+    url: 'https://freecvmaker.herokuapp.com/',
+    repo: 'https://github.com/mayurlalwani/resume-builder-mern', // if no repo, the button will not show up
+  },
   {
     id: nanoid(),
     img: 'project.jpg',
@@ -44,16 +54,6 @@ export const projectsData = [
     info2: '',
     url: 'https://typingspeedtest.netlify.app/',
     repo: 'https://github.com/mayurlalwani/react-typing-speed-test', // if no repo, the button will not show up
-  },
-
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: 'To-Do Crud App',
-    info: 'A simple To-Do app built with React and Styled components.',
-    info2: '',
-    url: 'https://todocrudreact.netlify.app/',
-    repo: 'https://github.com/mayurlalwani/Todo-crud', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
