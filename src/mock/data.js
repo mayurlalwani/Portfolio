@@ -22,7 +22,7 @@ export const aboutData = {
   paragraphOne: 'I am a passionate web developer, currently living and working in Gujarat.',
   paragraphTwo: 'My skills includes HTML, CSS, JavaScript, React, Nodejs, Express and MySql.',
   paragraphThree: '',
-  resume: 'https://drive.google.com/file/d/1cfUIpEJFtPgymC9LJBDimb72kOyY5ebV/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1YgBtNq0DvL1YYAya65VSl-EfkfTjxgsw/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
