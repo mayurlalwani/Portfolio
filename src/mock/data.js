@@ -33,7 +33,7 @@ export const projectsData = [
     title: 'Note Zipper',
     info: 'A MERN stack application where users can collaborate notes with others.',
     info2: '',
-    url: 'https://notes-collab-app.herokuapp.com/',
+    url: 'https://notes-mern-app.onrender.com/',
     repo: 'https://github.com/mayurlalwani/notes-app-mern', // if no repo, the button will not show up
   },
 
@@ -43,7 +43,7 @@ export const projectsData = [
     title: 'Resume Builder',
     info: 'A web application to build resume with features like Download and Drag & Drop.',
     info2: '',
-    url: 'https://freecvmaker.herokuapp.com/',
+    url: 'https://resume-builder-ubbt.onrender.com/',
     repo: 'https://github.com/mayurlalwani/resume-builder-mern', // if no repo, the button will not show up
   },
   {
